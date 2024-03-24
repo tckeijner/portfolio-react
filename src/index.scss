@@ -7,10 +7,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: $midnight;
+  background-color: $paynes-gray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+// Reset user agent stylesheets
+* {
+  margin: 0;
+  padding: 0;
 }
