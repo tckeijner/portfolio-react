@@ -1,0 +1,13 @@
+@import '../../styles/colors';
+
+.content-card-container {
+  padding: 1rem;
+
+  .content-card {
+    background-color: $moonstone;
+    border-radius: 10px;
+    height: 30rem;
+    padding: 1rem;
+  }
+}
+

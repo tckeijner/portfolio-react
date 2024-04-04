@@ -3,10 +3,13 @@
 .menu-container {
   display: flex;
   justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 
   .menu {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     border: $moonstone solid 1px;
     border-radius: 10px;
     background-color: $antiflash-white;
@@ -15,7 +18,7 @@
     .icon-container {
       display: flex;
       flex-direction: column;
-      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
 
     .menu-items {
